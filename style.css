@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    cursor: default;
 }
   
 body {
@@ -17,6 +18,7 @@ a {
     display: block;
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
 
 .nav-link {
@@ -64,19 +66,23 @@ a {
 .servicesText.card {
     height: 280px;
     cursor: pointer;
-  }
+}
 .servicesIcon {
     font-size: 36px;
     text-align: center;
     width: 100%;
+    cursor: default;
 }
 .card-title {
     text-align: center;
+    cursor: default;
 }
 .card:hover .servicesIcon {
+    cursor: default;
     color: #008000;
 }
 .servicesText:hover {
+    cursor: default;
     border: 1px solid #008000;
 }
 
@@ -135,12 +141,12 @@ a {
 }
 
 /* spacing on all sections */
-#about, #experience, #project, #contact {
+#about, #experience, #project{
     margin-top: 4rem;
     padding-top: 4rem;
 }
 
-#contact {
+#project {
     padding-bottom: 4rem;
 }
   
