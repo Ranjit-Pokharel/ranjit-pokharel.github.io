@@ -1,3 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-toggler{
+    color: white;
+}
+
 /* hero background image */
 .bgimage {
     height:100vh;
@@ -26,6 +55,11 @@
     width: 100%;
 }
 
+/* experience icon */
+.experience_icon {
+    font-size: xx-large;
+    text-align: center;
+}
 /* services section css */
 .servicesText.card {
     height: 280px;
@@ -46,6 +80,13 @@
     border: 1px solid #008000;
 }
 
+.card-body {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: black;
@@ -53,26 +94,53 @@
 
 /* social media icons styling */
 .social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     font-size: 36px;
     cursor: pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+
+.social-icons span {
+    font-size: medium;
+}
+.social-icons span:not(:first-child) {
+    margin-left: 5px;
+}
+
+.footer_icon.hover:hover {
     color: #008000;
+    cursor: pointer;
 }
-.fab {
+
+.footer_icon {
+    display: flex;
+    flex-wrap: wrap;
     color: #000000;
+    text-align: center;
+    align-items: center;
+    font-size: medium;
+    cursor: default;
 }
+
 /* footer styling */
 #footer {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #808080;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
 }
 
 /* spacing on all sections */
-#about, #services, #portfolio, #contact {
+#about, #experience, #project, #contact {
     margin-top: 4rem;
     padding-top: 4rem;
 }
+
 #contact {
     padding-bottom: 4rem;
 }
+  
