@@ -35,6 +35,8 @@ a {
     background: url('assets/wallpaper.jpg');
     background-size:cover;
     position:relative;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 /* text css above hero image*/
 .hero_title {
@@ -44,12 +46,13 @@ a {
     font-size: 2rem;
 }
 .hero-text {
+
+    color: white;
     text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
 }
 
 /* about section image css */
