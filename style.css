@@ -5,7 +5,14 @@
     padding: 0;
     cursor: default;
 }
-  
+
+img {
+    width: 100%;
+}
+
+.certificate_image {
+    width: 100%;
+}
 body {
     font-family: "Poppins", sans-serif;
 }
@@ -144,9 +151,9 @@ a {
 }
 
 /* spacing on all sections */
-#about, #experience, #project{
-    margin-top: 4rem;
-    padding-top: 4rem;
+#about, #experience, #project, #certificate{
+    margin-top: 2rem;
+    padding-top: 2rem;
 }
 
 #project {
