@@ -10,6 +10,9 @@ img {
     width: 100%;
 }
 
+p {
+    margin-bottom: 0;
+}
 .certificate_image {
     width: 100%;
 }
