@@ -6,22 +6,12 @@
     cursor: default;
 }
 
-img {
-    width: 100%;
-}
-
-p {
-    margin-bottom: 0;
-}
-.certificate_image {
-    width: 100%;
-}
-body {
-    font-family: "Poppins", sans-serif;
-}
-
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -31,6 +21,8 @@ a {
     cursor: pointer;
 }
 
+
+/* Nav Bar */
 .nav-link {
     color: white;
 }
@@ -39,10 +31,15 @@ a {
     color: white;
 }
 
-/* hero background image */
+/* display background color black on navbar scroll */
+.navbarDark {
+    background-color: black;
+}
+
+/* header hero section below navbar */
 .bgimage {
     height:100vh;
-    background: url('assets/wallpaper.jpg');
+    background: url('../assets/wallpaper/wallpaper.jpg');
     background-size:cover;
     position:relative;
     background-blend-mode: darken;
@@ -65,9 +62,14 @@ a {
     transform: translate(-50%, -50%);
 }
 
-/* about section image css */
-.imageAboutPage {
+/* certificate */
+.certificate_image {
     width: 100%;
+    overflow: hidden;
+}
+.certificate_image img {
+    width: 100%;
+    object-fit: cover;
 }
 
 /* experience icon */
@@ -75,6 +77,7 @@ a {
     font-size: xx-large;
     text-align: center;
 }
+
 /* services section css */
 .servicesText.card {
     height: 280px;
@@ -151,6 +154,7 @@ a {
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
+    margin-top: 2rem;
 }
 
 /* spacing on all sections */
@@ -159,7 +163,4 @@ a {
     padding-top: 2rem;
 }
 
-#project {
-    padding-bottom: 4rem;
-}
   
