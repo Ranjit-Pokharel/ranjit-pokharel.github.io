@@ -11,6 +11,14 @@ certificate_card = [
         title: "Linux Tranning",
         img_name: "linux_tranning.jpg",
     },
+    {
+        title: "IBM: Introduction to Prompt Engineering",
+        img_name: "IBM AI0131EN Certificate _ edX-1.jpg"
+    },
+    {
+        title: "IBM: Git and GitHub Basics",
+        img_name: "IBM CD0131EN Certificate _ edX-1.jpg"
+    },
 ]
 
 

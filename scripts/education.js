@@ -1,10 +1,6 @@
 const educations_cs = [
     {
         platform: "Harvard's CS50",
-        title: "CS50's Introduction to Computer Science",
-    },
-    {
-        platform: "Harvard's CS50",
         title: "CS50's Introduction to Programming with Python"
     },
     {
@@ -14,6 +10,14 @@ const educations_cs = [
     {
         platform: "Udemy",
         title: "Linux Shell Scripting: A Project-Based Approach to Learning"
+    },
+    {
+        platform: "Edx",
+        title: "IBM: Introduction to Prompt Engineering"
+    },
+    {
+        platform: "Edx",
+        title: "IBM: Git and GitHub Basics"
     }
 ];
 

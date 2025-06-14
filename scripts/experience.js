@@ -6,12 +6,6 @@ experience_card = [
         btn: "Leet Code Profile"
     },
     {
-        title: "CS50's Introduction to Computer Science",
-        font_awesome: "<i class='fa-solid fa-computer'></i>",
-        link: "https://github.com/Ranjit-Pokharel/CS50X-Problem-Sets/",
-        btn: "Problem Set"
-    },
-    {
         title: "CS50's Introduction to Programming with Python",
         font_awesome: "<i class='fa-brands fa-python'></i>",
         link: "https://github.com/Ranjit-Pokharel/CS50-Python-Problem-Sets/",
@@ -22,12 +16,6 @@ experience_card = [
         font_awesome: "<i class='fa-brands fa-python'></i>",
         link: "https://github.com/Ranjit-Pokharel/CS50-Python-Problem-Sets/tree/main/Final_project",
         btn: "GitHub"
-    },
-    {
-        title: "CS50's Practice",
-        font_awesome: "<i class='fa-solid fa-computer'></i>",
-        link: "https://github.com/Ranjit-Pokharel/CS50-practice",
-        btn: "Practice"
     },
 ]
 
